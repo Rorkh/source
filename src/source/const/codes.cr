@@ -1,4 +1,5 @@
 module Source
+    S2C_CHALLENGE = 0x41_u8;
     A2A_PING      = 0x69_u8;
     A2S_INFO      = 0x54_u8;
     A2S_PLAYER    = 0x55_u8;

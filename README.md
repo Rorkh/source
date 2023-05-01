@@ -1,6 +1,6 @@
 # source
 
-TODO: Write a description here
+[Source Query](https://developer.valvesoftware.com/wiki/Server_queries) library for crystal
 
 ## Installation
 
@@ -9,7 +9,7 @@ TODO: Write a description here
    ```yaml
    dependencies:
      source:
-       github: your-github-user/source
+       github: Rorkh/source
    ```
 
 2. Run `shards install`
@@ -18,17 +18,18 @@ TODO: Write a description here
 
 ```crystal
 require "source"
+
+query = Source::Query.new "37.230.162.62", 27015
+info = query.info
+
+puts info.online
+
+query.close
 ```
-
-TODO: Write usage instructions here
-
-## Development
-
-TODO: Write development instructions here
 
 ## Contributing
 
-1. Fork it (<https://github.com/your-github-user/source/fork>)
+1. Fork it (<https://github.com/Rorkh/source/fork>)
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
@@ -36,4 +37,4 @@ TODO: Write development instructions here
 
 ## Contributors
 
-- [your-name-here](https://github.com/your-github-user) - creator and maintainer
+- [Rorkh](https://github.com/Rorkh) - creator and maintainer

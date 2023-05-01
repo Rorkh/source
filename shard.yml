@@ -2,12 +2,7 @@ name: source
 version: 0.1.0
 
 authors:
-  - your-name-here <your-email-here>
+  - Rorkh <rorkh@internet.ru>
 
 crystal: 1.7.3
-
-targets:
-  spec:
-    main: spec/source_spec.cr
-
 license: MIT
