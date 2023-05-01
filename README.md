@@ -1,6 +1,8 @@
 # source
 
-[Source Query](https://developer.valvesoftware.com/wiki/Server_queries) library for crystal
+[Source Query](https://developer.valvesoftware.com/wiki/Server_queries) library for Crystal
+
+[![view - Documentation](https://img.shields.io/badge/view-Documentation-blue?style=for-the-badge)](https://rorkh.github.io/source/index.html "Go to project documentation")
 
 ## Installation
 
