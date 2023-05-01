@@ -1,7 +1,7 @@
 module Source
-    enum OS
-        Linux
-        Windows
-        Mac
-    end
+  enum OS
+    Linux
+    Windows
+    Mac
+  end
 end
