@@ -22,7 +22,7 @@ require "source"
 query = Source::Query.new "37.230.162.62", 27015
 info = query.info
 
-puts info.online
+puts info.players
 
 query.close
 ```
